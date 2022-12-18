@@ -1,0 +1,9 @@
+Incremental
+
+Typically, in incremental prototyping, features are added incrementally through a triage process. Consider the latest macOS (Monterey), where essential features were released at launch, but other features (like Universal Control, which has no priors) will be released in a later update.
+
+
+Evolutionary
+
+In evolutionary prototyping, a feature evolves from a primitive form, to a more refined or robust one. Consider the Mac OS filesystem, which has evolved from MFS (flat structure), HFS (adds directories), HFS+ (adds journaling), and APFS (adds snapshots and crash protection).
+

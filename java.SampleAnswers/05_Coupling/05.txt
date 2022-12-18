@@ -1,0 +1,7 @@
+The structure of an object-oriented application can be considered like a graph, where the nodes could be classes and edges could be dependencies among the classes.
+
+One wants a class to be highly cohesive (singular in purpose), but it likely will then need to depend on other classes, which leads to high coupling (class dependencies), and not what we want.
+
+One wants a class to have low coupling, but it likely will have to do more itself, which leads to low cohesion, also not what we want.
+
+Generally, there's a tradeoff in trying to achieve both high cohesion and low coupling at the same time in a software design.

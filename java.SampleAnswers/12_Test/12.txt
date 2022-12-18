@@ -1,0 +1,36 @@
+(a)
+
+class MockLocation extends Location {
+    boolean setterCalled;
+
+    public MockLocation( String latitude, String longitude ) {
+        super( latitude, longitude );
+        setterCalled = false;
+    }
+
+    public void setLatitude( String latitude ) {
+        super.setLatitude( latitude );
+        setterCalled = true;
+    }
+
+    public void setLongitude( String longitude ) {
+        super.setLongitude( longitude );
+        setterCalled = true;
+    }
+
+    public boolean getSetterCalled() {
+        return setterCalled;
+    }
+}
+
+(b)
+
+class TestTrackAdd extends TestCase {
+
+    public void testNoLocationSetter() {
+        Track track = new Track();
+        MockLocation location = new MockLocation( "53 N", "113 W" );
+        track.add( location );
+        assert !location.getSetterCalled();        
+    }
+}

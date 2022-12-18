@@ -1,0 +1,12 @@
+Extreme Programming
+
+In extreme programming, one practice is refactoring, improving the software design to make it amenable to accepting new requirements, thus achieving the principle.
+
+Another practice is continuous integration, which supports small and frequent releases for gaining customer feedback, thus becoming more welcome to new and change requirements.
+
+
+Scrum
+
+In scrum, one practice is the regular sprint review meeting, where the customer can see their planned and prioritized user stories being satisfied in a working software prototype, thus achieving the principle.
+
+Another practice is the sprint planning meeting, where the customer can help prioritize user stories so that the most valuable requirements are done early.

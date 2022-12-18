@@ -1,0 +1,5 @@
+Both abstract classes and interfaces can be used to declare a generalized abstraction or supertype in Java. Subclasses of abstract classes or implementing classes of interfaces define a subtype, instances of which can be used wherever the supertype is expected.
+
+If it makes sense for the supertype to have a partial implementation, then an abstract class could be used. However, there's a loss of flexibility, in that once a subclass inherits from an abstract class, it cannot inherit from another class, due to single implementation inheritance in Java.
+
+Since an interface typically doesn't define an implementation, a class can implement it, along with possibly other interfaces at the same time more flexibly.

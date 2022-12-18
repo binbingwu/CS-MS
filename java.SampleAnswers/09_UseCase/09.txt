@@ -1,0 +1,37 @@
+
+use case name:
+
+Fuel Car
+
+participating actors:
+
+Customer
+
+goal:
+
+To dispense fuel into a car
+
+trigger:
+
+Customer lifts nozzle
+
+precondition:
+
+Payment pre-authorized
+
+postcondition:
+
+Fuel dispensed
+
+basic flow:
+
+Customer removes gas cap, lifts nozzle, and inserts into car.
+Pump prompts for fuel type.
+Customer chooses fuel type, and starts dispensing fuel.
+Pump displays cumulative fuel amount and charge continuously.
+Pump prompts for whether to print receipt.
+Customer chooses whether to print receipt.
+Customer stops dispensing fuel, returns nozzle to pump, and caps fuel tank.
+Pump prints receipt if desired.
+Customer takes receipt if desired.
+

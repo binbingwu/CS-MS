@@ -1,0 +1,35 @@
+(a)
+
+The main code smell is the switch statement conditional on the pay type. Rather than such conditionals, we should use specific types of objects that do the right thing for each case.
+
+(b)
+
+One approach is to refactor the code to have employee subclasses for Engineer, SalesPerson, and Manager, and a payAmount() method in each that returns to appropriate pay.
+
+Another approach is to refactor the code with pay type subclasses for EngineerPayType, SalesPersonPayType, and ManagerPayType, and a payAmount() method in each that returns the appropriate pay. See below.
+
+abstract class PayType {
+    public abstract int payAmount( Employee emp );
+}
+
+class EngineerPayType extends PayType {
+    public int payAmount( Employee emp ) {
+        return emp.getMonthlySalary();
+    }
+}
+
+class SalesPersonPayType extends PayType {
+    public int payAmount( Employee emp ) {
+        return emp.getMonthlySalary()
+            + emp.getCommission();
+    }
+}
+
+class ManagerPayType extends PayType {
+    public int payAmount( Employee emp ) {
+        return emp.getMonthlySalary()
+            + emp.getBonus();
+    }
+}
+
+

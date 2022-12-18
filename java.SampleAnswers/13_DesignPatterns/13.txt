@@ -1,0 +1,2 @@
+
+To represent the hierarchical structure of this building (with floors and areas), and support consistent fire alert and suppression behavior across these units, the composite design pattern (tree structure and uniform behavior) is appropriate here.

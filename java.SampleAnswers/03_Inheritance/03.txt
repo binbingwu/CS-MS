@@ -1,0 +1,8 @@
+1:
+
+A Log is only supposed to allow append and iteration over events. Conceptually an instance of Log is not substitutable wherever there is an ArrayList<Event>, so inheritance is not appropriate here.
+
+2:
+
+If Log inherits from ArrayList<Event>, it gets endowed with unnecessary functionality. This inheritance becomes an assumption by users of Log, making it difficult to change the data structure later.
+

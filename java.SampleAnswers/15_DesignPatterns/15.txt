@@ -1,0 +1,17 @@
+
+(a)
+
+You have a hierarchical structure of directories and contents, and uniform behavior in that these things have a size. The composite design addresses representing hierarchies of things in a uniform way.
+
+(b)
+
+You have cells that need to be recalculated when other cells change. A cell can be notified it needs recalculation using the observer design pattern. A cell can be considered an observer of the other cells it may depend on.
+
+(c)
+
+You have the functionality of a college math calculator, but need to be an interface a normal kid could use. So, you are providing a new, simplified interface over a more complex system, so the facade design pattern is appropriate here.
+
+(d)
+
+You have different combinations of file filters (compression, encryption) that need to be assembled to handle the input file appropriate. The decorator pattern supports constructing these combinations and processing the input, where each decorator is a particular type of file filter.
+

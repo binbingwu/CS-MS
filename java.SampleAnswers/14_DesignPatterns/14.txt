@@ -1,0 +1,12 @@
+
+(a)
+
+When an observer object is asked to update itself, it can be passed the particular subject object that had changed.
+
+So, rather than just update() in the observer, change the method to update( Subject ).
+
+(b)
+
+Just prior to deleting the subject, each observer object should be notified of that, and do what's appropriate.
+
+So, add a detach() method in each observer to be called just prior to the actual deletion of the subject.

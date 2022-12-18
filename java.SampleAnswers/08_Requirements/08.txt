@@ -1,0 +1,16 @@
+User requirement
+
+As a claimant, I want to attach receipts digitally with the expense claim, so that approvers have evidence of my expenses.
+
+Test that photographs of receipts can be taken with the camera and attached to an expense claim.
+
+Test that PDF receipts can be attached to an expense claim.
+
+
+Non-functional requirement
+
+As a claimant, I want to submit an expense claim in under 5 seconds, so that I can continue with other tasks.
+
+Test submitting an expense claim with 20 items and attached digital receipts.
+
+Test submitting an expense claim with 10 items and very large attached digital receipts.
