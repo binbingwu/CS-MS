@@ -1,0 +1,39 @@
+Executing Part 3
+
+
+Executing Task A
+Opening A4v100.db
+Average query time for Query Q4: 1.1217975616455078ms
+Closing A4v100.db
+Opening A4v1k.db
+Average query time for Query Q4: 1.1799311637878418ms
+Closing A4v1k.db
+Opening A4v10k.db
+Average query time for Query Q4: 1.3968276977539062ms
+Closing A4v10k.db
+Opening A4v100k.db
+Average query time for Query Q4: 5.2033233642578125ms
+Closing A4v100k.db
+Opening A4v1M.db
+Average query time for Query Q4: 916.52827501297ms
+Closing A4v1M.db
+
+ Creating Index 
+
+
+ Executing Task C 
+Opening A4v100.db
+Average query time for Query Q4: 2.1154236793518066ms
+Closing A4v100.db
+Opening A4v1k.db
+Average query time for Query Q4: 2.0877861976623535ms
+Closing A4v1k.db
+Opening A4v10k.db
+Average query time for Query Q4: 1.506202220916748ms
+Closing A4v10k.db
+Opening A4v100k.db
+Average query time for Query Q4: 1.7279267311096191ms
+Closing A4v100k.db
+Opening A4v1M.db
+Average query time for Query Q4: 970.3233432769775ms
+Closing A4v1M.db
